@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using MovieApi.Application.Features.MediatorDesignPattern.Results.CastResults;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MovieApi.Application.Features.MediatorDesignPattern.Queries.CastQueries
 {
-    public class GetCastByIdQuery:IRequest<GetCastByIdQuery>
+    public class GetCastByIdQuery:IRequest<GetCastByIdQueryResult>
     {
         public int CastId { get; set; }
 
