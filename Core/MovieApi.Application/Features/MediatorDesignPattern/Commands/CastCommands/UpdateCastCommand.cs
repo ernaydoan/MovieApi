@@ -18,4 +18,4 @@ namespace MovieApi.Application.Features.MediatorDesignPattern.Commands.CastComma
         public string? Biography { get; set; }
     }
 }
-}
+

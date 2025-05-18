@@ -18,4 +18,4 @@ namespace MovieApi.Application.Features.MediatorDesignPattern.Results.CastResult
         public string? Biography { get; set; }
     }
 }
-}
+

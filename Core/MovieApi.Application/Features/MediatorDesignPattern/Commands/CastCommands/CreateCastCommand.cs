@@ -9,12 +9,12 @@ namespace MovieApi.Application.Features.MediatorDesignPattern.Commands.CastComma
 {
     public class CreateCastCommand : IRequest
     {
-        public string Title { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string ImageUrl { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+        public string Surname { get; set; } = string.Empty;
+        public string ImageUrl { get; set; } = string.Empty;
         public string? OverView { get; set; }
         public string? Biography { get; set; }
     }
 }
-}
+
