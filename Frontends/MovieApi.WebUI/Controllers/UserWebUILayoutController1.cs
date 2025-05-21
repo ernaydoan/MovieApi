@@ -2,7 +2,7 @@
 
 namespace MovieApi.WebUI.Controllers
 {
-    public class UserWebUILayoutController1 : Controller
+    public class UserWebUILayoutController : Controller
     {
         public IActionResult LayoutUI()
         {
